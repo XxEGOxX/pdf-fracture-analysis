@@ -46,23 +46,9 @@ Résultat généré : outputs/infer_result.json
 LANCEZ : streamlit run scripts/streamlit_app.py
 Puis ouvrir : http://localhost:8501
 
-## Structure du projet
-scripts/
-  build_db.py
-  infer.py
-  streamlit_app.py
-  pdf_utils.py
-  rules.py
-  keywords.py
-  drbert_embed.py
-  drbert_extractive_summarizer.py
 
-data/
-outputs/
-README.md
-requirements.txt
-
-<!-- Sous certains environnements Windows, PyTorch peut générer une erreur d'exécution OpenMP dupliquée.
+## Windows Note (OpenMP)
+Sous certains environnements Windows, PyTorch peut générer une erreur d'exécution OpenMP dupliquée.
 
 Ce problème est géré automatiquement par les scripts grâce à la configuration des variables d'environnement requises.
 
