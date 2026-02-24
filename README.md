@@ -57,7 +57,8 @@ Si nécessaire, vous pouvez exécuter manuellement la commande suivante :
 PowerShell :
 
 $env:KMP_DUPLICATE_LIB_OK="TRUE"
+
 $env:OMP_NUM_THREADS="1"
+
 $env:MKL_NUM_THREADS="1"
 
-Cette étape est généralement inutile. -->
